@@ -5,7 +5,7 @@ class emitter extends EventEmitter {
 		super();
 		
 		console.log("Emitting ready!");
-		
+
 		this.emit("ready");
 
 	}
