@@ -1,0 +1,21 @@
+{
+
+	"description": "BUG 945151",
+	"manifest_version": 2,
+	"name": "bug945151",
+	"version": "1.0",
+	
+	"background": {
+		"scripts": [
+			"deps/EventEmitter.js",
+			"bg/emitter.js",
+			"bg/background.js"
+		]
+	},
+
+	"options_ui": {
+		"open_in_tab": true,
+		"page": "fg/options.html"
+	}
+	
+}
